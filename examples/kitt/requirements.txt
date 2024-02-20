@@ -1,6 +1,9 @@
 livekit>=0.9.0
 livekit-api
-livekit-agents>=0.4.0
-livekit-plugins-deepgram>=0.2.0
-livekit-plugins-elevenlabs>=0.2.0
 openai
+aiohttp==3.9.3 --only-binary :all:
+async-timeout==4.0.2 --only-binary :all:
+attrs==22.2.0 --only-binary :all:
+chardet==5.1.0 --only-binary :all:
+multidict==6.0.4 --only-binary :all:
+yarl==1.8.2 --only-binary :all:
